@@ -1,0 +1,27 @@
+app-home, app-aboutme, app-projects, app-contact, app-skills {
+    display: block;
+    padding: 50px;
+    box-sizing: border-box;
+    min-height: 100vh;
+  }
+  
+  app-home {
+    background-color: #1e1e2f; /* Azul oscuro con tono tecnológico */
+  }
+  
+  app-aboutme {
+    background-color: #32344a; /* Azul oscuro ligeramente más claro */
+  }
+  
+  app-skills {
+    background-color: #1e1e2f; /* Azul oscuro con un toque de verde */
+  }
+
+  app-projects {
+    background-color: #32344a; /* Azul oscuro con un toque de gris */
+  }
+  
+  app-contact {
+    background-color: #1e1e2f; /* Azul oscuro más suave */
+  }
+  

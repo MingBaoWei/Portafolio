@@ -1,0 +1,17 @@
+.projects-container {
+    padding: 20px;
+    background-color: #f8f9fa;
+    min-height: 100vh;
+    text-align: center;
+  }
+  
+  .projects-container h2 {
+    font-size: 2rem;
+    color: #333;
+  }
+  
+  .projects-container p {
+    font-size: 1.2rem;
+    color: #555;
+  }
+  
