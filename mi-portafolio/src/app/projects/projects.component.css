@@ -1,14 +1,117 @@
-.projects-container {
-    text-align: center;
+/* Estilo para la sección Proyectos */
+.projects {
+  background-color: #252A2E;
+  color: #fff;
+  padding: 50px 20px;
+}
+
+.projects .contenido-seccion {
+  max-width: 1100px;
+  margin: auto;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.projects h2 {
+  font-size: 48px;
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.projects .fila {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  flex-direction: column;
+}
+
+.projects .col {
+  flex: 1;
+  min-width: 300px;
+  box-sizing: border-box;
+  padding: 0 20px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.project-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  flex-direction: column;
+}
+
+.project-image img {
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  border-radius: 10px;
+}
+
+.project-description {
+  max-width: 500px;
+  padding: 20px;
+  max-width: 100%;
+}
+
+.project-description h3 {
+  font-size: 28px;
+  margin-bottom: 15px;
+  color: yellowgreen;
+}
+
+.project-description p {
+  font-size: 16px;
+  line-height: 24px;
+  margin-bottom: 20px;
+}
+
+.project-link {
+  color: #1CB698;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.project-link:hover {
+  text-decoration: underline;
+}
+
+/* Estilos Responsivos */
+
+@media (max-width: 768px) {
+  .projects h2 {
+      font-size: 36px;
   }
-  
-  .projects-container h2 {
-    font-size: 2rem;
-    color: #333;
+
+  .project-description h3 {
+      font-size: 24px;
   }
-  
-  .projects-container p {
-    font-size: 1.2rem;
-    color: #555;
+
+  .project-description p {
+      font-size: 14px;
   }
-  
+
+  .project-link {
+      font-size: 14px;
+  }
+}
+
+@media (max-width: 425px) {
+  .projects h2 {
+      font-size: 28px;
+  }
+
+  .project-description h3 {
+      font-size: 20px;
+  }
+
+  .project-description p {
+      font-size: 12px;
+  }
+
+  .project-link {
+      font-size: 12px;
+  }
+}

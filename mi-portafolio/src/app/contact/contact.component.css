@@ -1,14 +1,97 @@
-.contact-container {
-    text-align: center;
+/* SECCION OTHERS */
+.others {
+  background-color: #1e2326;
+  color: #fff;
+  text-align: center;
+}
+
+.others h2 {
+  font-size: 48px;
+  font-family: 'Righteous';
+  padding: 20px 0;
+}
+
+.others ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.others ul li {
+  margin: 20px;
+  width: 40%;
+  text-align: center;
+}
+
+.others ul li img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 10px;
+  transition: transform 0.4s ease;
+}
+
+.others ul li img:hover {
+  transform: scale(1.1); /* Zoom al pasar el ratón */
+}
+
+.others ul li span {
+  display: block;
+  margin-top: 10px;
+  font-size: 18px;
+  font-weight: bold;
+  color: yellowgreen;
+}
+
+/* FOOTER */
+footer {
+  background-color: #131517;
+  padding: 20px;
+  text-align: center;
+  color: #fff;
+  font-family: 'Poppins', sans-serif;
+}
+
+footer p {
+  margin: 10px 0;
+}
+
+.footer-links {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.footer-links a {
+  color: #1CB698;
+  text-decoration: none;
+}
+
+.footer-links a:hover {
+  text-decoration: underline;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .footer-links {
+    flex-direction: column;
   }
-  
-  .contact-container h2 {
-    font-size: 2rem;
-    color: #333;
+  .footer-links a {
+    margin: 5px 0;
   }
-  
-  .contact-container p {
-    font-size: 1.2rem;
-    color: #555;
+}
+
+@media (max-width: 480px) {
+  .others ul li {
+    width: 90%;
   }
-  
+  .others ul li img {
+    width: 100px;
+    height: 100px;
+  }
+  .others ul li span {
+    font-size: 14px;
+  }
+}
