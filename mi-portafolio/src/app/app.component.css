@@ -50,7 +50,6 @@
 /* Ajusta el contenido de la página para que no quede oculto por la barra en pantallas grandes */
 app-home, app-aboutme, app-projects, app-contact, app-skills {
   display: block;
-  padding: 50px;
   box-sizing: border-box;
   min-height: 100vh;
   padding-top: 75px;
