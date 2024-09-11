@@ -87,7 +87,7 @@ app-contact {
 
   .nav-link {
     letter-spacing: 0;
-    font-size: 13px;
+    font-size: 15px;
   }
 
   app-home, app-aboutme, app-skills, app-projects, app-contact {
@@ -103,6 +103,6 @@ app-contact {
 @media (max-width: 425px) {
   .nav-link {
     letter-spacing: 0;
-    font-size: 8px;
+    font-size: 12px;
   }
 }
