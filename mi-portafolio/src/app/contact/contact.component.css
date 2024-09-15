@@ -1,4 +1,45 @@
-/* SECCION OTHERS */
+/* SECCIÓN EXPERIENCIA EXTERNA AL SECTOR */
+.external-experience {
+  background-color: #1e2326;
+  color: #fff;
+  text-align: center;
+  padding: 40px 0;
+}
+
+.external-experience h2 {
+  font-size: 48px;
+  padding: 20px 0;
+}
+
+.external-experience-list {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.external-experience-list ul {
+  list-style: none;
+  padding: 0;
+}
+
+.external-experience-list ul li {
+  margin: 20px 0;
+  text-align: left;
+  font-size: 18px;
+  color: #fff;
+}
+
+.external-experience-list ul li span {
+  font-weight: bold;
+  color: yellowgreen;
+  font-size: 20px;
+}
+
+.external-experience-list ul li p {
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+/* SECCIÓN CERTIFICACIONES */
 .others {
   background-color: #1e2326;
   color: #fff;
@@ -7,7 +48,6 @@
 
 .others h2 {
   font-size: 48px;
-  font-family: 'Righteous';
   padding: 20px 0;
 }
 
@@ -34,7 +74,7 @@
 }
 
 .others ul li img:hover {
-  transform: scale(1.1); /* Zoom al pasar el ratón */
+  transform: scale(1.1);
 }
 
 .others ul li span {
@@ -75,6 +115,19 @@ footer p {
 
 /* Responsive Styles */
 @media (max-width: 768px) {
+  .external-experience-list {
+    max-width: 90%;
+    padding: 0 15px;
+  }
+
+  .external-experience h2 {
+    font-size: 36px;
+  }
+
+  .external-experience-list ul li {
+    font-size: 16px;
+  }
+
   .footer-links {
     flex-direction: column;
   }
@@ -92,6 +145,27 @@ footer p {
     height: 100px;
   }
   .others ul li span {
+    font-size: 14px;
+  }
+
+  .external-experience-list {
+    max-width: 95%;
+    padding: 0 10px;
+  }
+
+  .external-experience h2 {
+    font-size: 32px;
+  }
+
+  .external-experience-list ul li {
+    font-size: 14px;
+  }
+
+  .external-experience-list ul li span {
+    font-size: 18px;
+  }
+
+  .external-experience-list ul li p {
     font-size: 14px;
   }
 }
