@@ -74,16 +74,16 @@
 }
 
 /* Animaciones de progreso */
-.skills .progreso.html { width: 70%; }
-.skills .progreso.css { width: 70%; }
-.skills .progreso.javascript { width: 70%; }
-.skills .progreso.typescript { width: 70%; }
+.skills .progreso.html { width: 60%; }
+.skills .progreso.css { width: 60%; }
+.skills .progreso.javascript { width: 60%; }
+.skills .progreso.typescript { width: 60%; }
 .skills .progreso.angular { width: 70%; }
-.skills .progreso.java { width: 80%; }
-.skills .progreso.plsql { width: 70%; }
-.skills .progreso.php { width: 77%; }
-.skills .progreso.nodejs { width: 80%; }
-.skills .progreso.springboot { width: 85%; }
+.skills .progreso.java { width: 65%; }
+.skills .progreso.plsql { width: 65%; }
+.skills .progreso.php { width: 60%; }
+.skills .progreso.nodejs { width: 65%; }
+.skills .progreso.springboot { width: 75%; }
 
 @media (max-width: 768px) {
     .skills h2 {
