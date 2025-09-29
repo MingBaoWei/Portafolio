@@ -37,65 +37,45 @@
     margin-bottom: 25px;
 }
 
-.skills .skill > span {
-    font-weight: bold;
-    display: block;
-    margin-bottom: 10px;
+/* Lista estilizada para reemplazar barras de progreso */
+.skills .lista-skills {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 20px 0;
 }
 
-.skills .barra-skill {
-    height: 8px;
-    width: 100%;
-    background-color: #131517;
+.skills .lista-skills li {
+    background: #131517;
+    border: 1px solid rgba(255,255,255,0.06);
+    border-radius: 10px;
+    padding: 14px 16px;
+    margin-bottom: 12px;
+    line-height: 1.5;
     position: relative;
-    margin-bottom: 30px;
 }
 
-.skills .barra-skill .progreso {
-    background-color: #1CB698;
+.skills .lista-skills li::before {
+    content: "";
     position: absolute;
-    top: 0;
     left: 0;
-    height: 8px;
-    transition: width 1s ease;
+    top: 0;
+    bottom: 0;
+    width: 4px;
+    background: #1CB698;
+    border-radius: 10px 0 0 10px;
 }
 
-.skills .barra-skill span {
-    position: absolute;
-    height: 40px;
-    width: 40px;
-    background-color: #1CB698;
-    border-radius: 50px;
-    line-height: 40px;
-    text-align: center;
-    top: -17px;
-    right: -15px;
-    font-size: 14px;
+.skills .lista-skills li strong {
+    color: #1CB698;
 }
-
-/* Animaciones de progreso */
-.skills .progreso.html { width: 60%; }
-.skills .progreso.css { width: 60%; }
-.skills .progreso.javascript { width: 60%; }
-.skills .progreso.typescript { width: 60%; }
-.skills .progreso.angular { width: 70%; }
-.skills .progreso.java { width: 65%; }
-.skills .progreso.plsql { width: 65%; }
-.skills .progreso.php { width: 60%; }
-.skills .progreso.nodejs { width: 65%; }
-.skills .progreso.springboot { width: 75%; }
 
 @media (max-width: 768px) {
     .skills h2 {
         font-size: 36px;
     }
-
-    .skills .skill > span {
+    .skills .lista-skills li {
+        padding: 12px 14px;
         font-size: 14px;
-    }
-
-    .skills .barra-skill span {
-        font-size: 12px;
     }
 }
 
@@ -103,14 +83,7 @@
     .skills h2 {
         font-size: 28px;
     }
-
-    .skills .skill > span {
-        font-size: 12px;
-    }
-
-    .skills .barra-skill span {
-        font-size: 10px;
-        height: 30px;
-        width: 30px;
+    .skills .lista-skills li {
+        font-size: 13px;
     }
 }
